@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="520d318e-c5c1-44b2-8435-44b61377a106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/install-composer.sh" afterDir="false" />
+    <list default="true" id="520d318e-c5c1-44b2-8435-44b61377a106" name="Default Changelist" comment="create init sh file">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws-handson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws-handson.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -105,6 +107,15 @@
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
     </include_path>
   </component>
   <component name="ProjectId" id="1V8e63cqAeQukjIASMZCoEfDi4u" />
@@ -119,6 +130,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="de.espend.idea.laravel.ui.TemplateSettingsForm" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -145,11 +157,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576638971129</updated>
-      <workItem from="1576638973711" duration="4157000" />
+      <workItem from="1576638973711" duration="6287000" />
+      <workItem from="1577064450521" duration="588000" />
+      <workItem from="1577253529497" duration="425000" />
+      <workItem from="1578445533142" duration="12604000" />
     </task>
+    <task id="LOCAL-00001" summary="create init sh file">
+      <created>1576747906229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576747906232</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit init.sh">
+      <created>1576748502853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576748502853</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create db connection part">
+      <created>1579493550069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579493550069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create init sh file" />
+    <MESSAGE value="edit init.sh" />
+    <MESSAGE value="create db connection part" />
+    <option name="LAST_COMMIT_MESSAGE" value="create db connection part" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="201" key="#Inspections" timestamp="1579489379710">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="201" key="#Inspections/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579489379710" />
+    <state x="400" y="151" key="CommitChangelistDialog2" timestamp="1579498095940">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="400" y="151" key="CommitChangelistDialog2/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579498095940" />
+    <state x="400" y="151" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1579493549060" />
+    <state x="661" y="467" key="NewPhpFileDialog" timestamp="1579485863293">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="661" y="467" key="NewPhpFileDialog/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579485863293" />
+    <state x="349" y="185" key="SettingsEditor" timestamp="1579498101442">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="185" key="SettingsEditor/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579498101442" />
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2" timestamp="1579493561503">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1576748504946" />
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1579493561503" />
+    <state x="628" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579488885516">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="628" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579488885516" />
+    <state x="497" y="300" width="685" height="472" key="find.popup" timestamp="1579249682962">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="497" y="300" width="685" height="472" key="find.popup/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579249682962" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1579492457581">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-1920.112.1920.1057@0.23.1680.1027" timestamp="1579492457581" />
   </component>
 </project>
