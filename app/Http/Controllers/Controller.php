@@ -20,7 +20,6 @@ class Controller extends BaseController
             Redis::set('guns', json_encode($gunsFromDB->all()));
             $gunsFromRedis = json_decode(Redis::get('guns'), true);
         } catch (\Throwable $exception) {
-            die($exception->getMessage());
         } finally {
             return view('gunsIndex')->with(
                 [
