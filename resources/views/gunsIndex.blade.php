@@ -7,6 +7,7 @@
 </head>
 <body>
 <div>
+    <p>{{gethostname()}}</p>
     <h1>DBから取得データ</h1>
     <table>
         @if(!empty($gunsFromDB))
@@ -23,7 +24,18 @@
 </div>
 <div>
     <h1>Redisから取得データ</h1>
-    <table></table>
+    <table>
+        @if(!empty($gunsFromRedis))
+            @foreach($gunsFromRedis as $gun)
+                <tr>
+                    <td>{{$gun['name']}}</td>
+                    <td><img src="{{env('CLOUDFRONT_URL').$gun['img']}}" style="width: 50px; height: 50px"/></td>
+                </tr>
+            @endforeach
+        @else
+            <p>データなし</p>
+        @endif
+    </table>
 </div>
 </body>
 </html>
